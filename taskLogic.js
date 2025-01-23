@@ -15,8 +15,11 @@ document.getElementById('addTaskBtn').addEventListener('click', () => {
   
       li.appendChild(removeBtn);
       taskList.appendChild(li);
+      li.appendChild(removeBtn);
+      taskList.appendChild(li);
   
       taskInput.value = '';
+
     }
   });
   
